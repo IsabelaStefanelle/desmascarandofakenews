@@ -22,5 +22,7 @@ class APITest extends TestCase
         $this->assertEquals('https://api.exemplo.com/v1/noticias',$API->urlEndpoint);
         $this->assertEquals('abc12345-fake-key-987zyx', $API->chaveAPI);
 
+        $this->assertNotEmpty($API->chaveAPI);
+
     }
 }
