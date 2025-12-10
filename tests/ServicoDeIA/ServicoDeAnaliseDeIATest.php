@@ -23,5 +23,7 @@ class ServicoDeAnaliseDeIATest extends TestCase
         $this->assertEquals('Nat',$ServicoDeAnaliseDeIA->modelo);
         $this->assertEquals('v4', $ServicoDeAnaliseDeIA->versao);
 
+        $this->assertIsString($ServicoDeAnaliseDeIA->modelo);
+
     }
 }
