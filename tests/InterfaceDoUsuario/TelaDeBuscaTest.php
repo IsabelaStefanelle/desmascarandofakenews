@@ -21,5 +21,7 @@ class TelaDeBuscaTest extends TestCase
         $this->assertEquals('Netflix',$TelaDeBusca->campo_de_Pesquisa);
         $this->assertEquals(NULL, $TelaDeBusca->enviarpesquisa());
 
+        $this->assertIsString($TelaDeBusca->campo_de_Pesquisa);
+
     }
 }
