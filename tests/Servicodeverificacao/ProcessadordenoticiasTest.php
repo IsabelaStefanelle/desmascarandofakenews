@@ -22,7 +22,7 @@ class ProcessadordenoticiasTest extends TestCase
         $this->assertEquals(NULL, $Processadordenoticias->iniciarverificacao());
         $this->assertEquals(NULL,$Processadordenoticias->buscarFontes());
 
-        $this->assertGreaterThan(0, $Processadordenoticias->idProcesso);
+        $this->assertGreaterThan(0, $Processadordenoticias->isProcesso);
 
     }
 }
